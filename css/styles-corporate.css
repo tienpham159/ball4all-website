@@ -2,11 +2,7 @@
 /* CSS Document */
 
 .navbar {
-	background-color: #323C13 !important; 
-}
-
-.jumbotron {
-	background-color: #323C13 !important;
+	background-color:#323C13 !important; 
 }
 
 .nav-link {
@@ -29,12 +25,6 @@
 	border-color: #FF8B00 !important; 
 }
 
-.jumbotron {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/playing-football.jpg");
-	background-size: cover;
-	background-repeat: no-repeat; 
-}
-
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -47,18 +37,20 @@
   font-style: normal;
 }
 
-.brand-name {
-	color: #EDEAE4 !important; 
-	font-size: 100px !important;
+.marketing {
+	color:#323C13; 
 }
 
-.brand-intro {
-	color: #EDEAE4 !important;
+.jumbotron-fluid {
+	background-color: #EDEAE4; 
 }
 
-.landing-page {
-	background-color: aqua; 
-	opacity: 0.5; 
+.carousel-control-prev {
+	opacity: 0 !important;
+}
+
+.carousel-control-next {
+	opacity: 0 !important;
 }
 
 .poppins-semibold {
@@ -67,26 +59,23 @@
   font-style: normal;
 }
 
-.about-us {
-	color: #323C13; 
+.subtitle {
+	font-size: 20px;
+	color: #323C13;
 }
 
-.card-text {
-	font-size: 13px;
+.bodytext {
+	font-size: 14px;
 }
 
-.carousel-control-next {
-	opacity: 0; 
-}
-
-.carousel-control-prev {
-	opacity: 0; 
-}
-
-.feedback-title {
+.marketing {
+	background-color: #323C13;
 	color: #EDEAE4;
 }
 
-.feedback-info {
+.emphasized-title {
+	background-color: #FF8B00;
 	color: #EDEAE4;
+	text-align: center;
 }
+
