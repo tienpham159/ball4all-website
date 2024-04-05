@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar {
+	background-color:#323C13 !important; 
+}
+
+.nav-link {
+	color: #EDEAE4 !important; 
+}
+
+.btn {
+	background-color: #FF8B00 !important;
+}
+
+.btn:active {
+	background-color: #889600 !important;
+}
+
+.btn-outline-success {
+	border-color: #FF8B00 !important; 
+}
+
+.btn-outline-success:active {
+	border-color: #FF8B00 !important; 
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marketing {
+	color:#323C13; 
+}
+
+.jumbotron-fluid {
+	background-color: #EDEAE4; 
+}
+
+.carousel-control-prev {
+	opacity: 0 !important;
+}
+
+.carousel-control-next {
+	opacity: 0 !important;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.subtitle {
+	font-size: 20px;
+	color: #323C13;
+}
+
+.bodytext {
+	font-size: 14px;
+}
+
+.marketing {
+	background-color: #323C13;
+	color: #EDEAE4;
+}
+
+.emphasized-title {
+	background-color: #FF8B00;
+	color: #EDEAE4;
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #889600;
+}
+
+.form-title {
+	color: #FF8B00;
+}
+
+.form-info {
+	color:  #EDEAE4;
+}
+
+.background {
+	background-image: url("../images/playing-football.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.form-link:active {
+	color:#EDEAE4;
+}
+
+
