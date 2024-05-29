@@ -9,7 +9,7 @@
 	background-color: #323C13 !important;
 }
 
-.nav-link {
+.nav-link-navbar {
 	color: #EDEAE4 !important; 
 }
 
@@ -90,3 +90,95 @@
 .feedback-info {
 	color: #EDEAE4;
 }
+
+.marketing {
+	color:#323C13; 
+}
+
+.jumbotron-fluid {
+	background-color: #EDEAE4; 
+}
+
+.carousel-control-prev {
+	opacity: 0 !important;
+}
+
+.carousel-control-next {
+	opacity: 0 !important;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.subtitle {
+	font-size: 20px;
+	color: #323C13;
+}
+
+.bodytext {
+	font-size: 14px;
+}
+
+.background {
+	background-color: #EDEAE4; 
+}
+
+.card-title {
+	color:#323C13;
+}
+
+.jumbotron {
+	background-color: #889600;
+}
+
+.form-title {
+	color: #FF8B00;
+}
+
+.form-info {
+	color:  #EDEAE4;
+}
+
+.background {
+	background-image: url("../images/playing-football.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.form-link:active {
+	color:#EDEAE4;
+}
+
+.form-link {
+	color:#889600;
+}
+
+.form-link:hover {
+	color:#EDEAE4;
+}
+
+.heading {
+	color:#323C13;
+}
+
+.card-text {
+	color:#323C13;
+}
+
+.nav-link {
+	color:#323C13;
+}
+
+.nav-link:hover {
+	color:#FF8B00;
+}
+
+.nav-link:active {
+	color:#FF8B00;
+}
+
+
+
