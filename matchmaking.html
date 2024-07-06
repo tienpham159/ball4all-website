@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Agency Page Template</title>
+    <title>Matchmaking</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,16 +20,32 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active m-lg-2"> <a class="nav-link-navbar poppins-regular" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-                <li class="nav-item active m-lg-2"> <a class="nav-link-navbar poppins-regular" href="corporate2.html">Corporate</a>
-                </li>
-            </ul>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item m-lg-2 active">
+      <a class="nav-link-navbar poppins-regular" href="index.html">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item m-lg-2">
+      <div class="dropdown show">
+        <a class="dropdown-toggle nav-link-navbar poppins-regular m-lg-2 active" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="ballerpassport.html">Baller Passport</a>
+          <a class="dropdown-item" href="pitch-booking.html">Pitch Booking</a>
+          <a class="dropdown-item" href="matchmaking.html">Matchmaking</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item m-lg-2">
+      <a class="nav-link-navbar poppins-regular" href="corporate2.html">Corporate</a>
+    </li>
+  </ul>
+</div>
+
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2 poppins-regular" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0 poppins-regular" type="submit">Search</button>
             </form>
-        </div>
     </nav>
     <!-- end of nav -->
     <div class="container">
@@ -83,7 +99,7 @@
         <div class="row justify-content-center mb-5">
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/ha-nguy-n.jpg" class="card-img-top" alt="Kenneth Tran">
+                    <img src="images/hanguyen.svg" class="card-img-top" alt="Kenneth Tran">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Kenneth Tran</p>
                     </div>
@@ -91,7 +107,7 @@
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/isaac-ramirez.jpg" class="card-img-top" alt="Daan Beukers">
+                    <img src="images/isaac-ramirez.svg" class="card-img-top" alt="Daan Beukers">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Daan Beukers</p>
                     </div>
@@ -99,7 +115,7 @@
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/ludovic-migneault.jpg" class="card-img-top" alt="Gerrit Boschman">
+                    <img src="images/ludovic.svg" class="card-img-top" alt="Gerrit Boschman">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Gerrit Boschman</p>
                     </div>
@@ -107,7 +123,7 @@
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/leilani-angel.jpg" class="card-img-top" alt="Fabian de Backer">
+                    <img src="images/leilani-angel.svg" class="card-img-top" alt="Fabian de Backer">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Fabian de Backer</p>
                     </div>
@@ -150,5 +166,9 @@
         <!-- Copyright -->
     </footer>
     <!-- end of footer -->
+	 <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

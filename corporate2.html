@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <title>PRJ4 Base Group Template &mdash; Corporate Information</title>
+    <title>Corporate Information</title>
     
     <!-- Google Analytics code goes here (check PRJ4 Guide for details) -->
     
@@ -26,15 +26,27 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active m-lg-2">
-              <a class="nav-link-navbar poppins-regular" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active m-lg-2">
-              <a class="nav-link-navbar poppins-regular" href="corporate2.html">Corporate</a>
-            </li>
-          </ul>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item m-lg-2 active">
+      <a class="nav-link-navbar poppins-regular" href="index.html">Home <span class="sr-only"></span></a>
+    </li>
+    <li class="nav-item m-lg-2">
+      <div class="dropdown show">
+        <a class="dropdown-toggle nav-link-navbar poppins-regular m-lg-2 active" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="ballerpassport.html">Baller Passport</a>
+          <a class="dropdown-item" href="pitch-booking.html">Pitch Booking</a>
+          <a class="dropdown-item" href="matchmaking.html">Matchmaking</a>
         </div>
+      </div>
+    </li>
+    <li class="nav-item m-lg-2">
+      <a class="nav-link-navbar poppins-regular" href="corporate2.html">Corporate</a>
+    </li>
+  </ul>
+</div>
       </div>
     </nav>
     <!-- End of navigation bar -->
@@ -241,7 +253,7 @@
 
 <h5 class="mt-4 mb-3">Persona</h5>
 <div class="row"> 
-  <img height="500" src="images/persona.jpg" alt="Persona">
+  <img height="500" src="images/persona.svg" alt="Persona">
 </div>
 
 <h6 class="mt-4 mb-3">A day in the life of Piet</h6>
@@ -316,9 +328,9 @@
   <li>The logo is designed based on our unique brand feature - the digital baller passport. As such, we incorporated the image of a stamp and football into the logo design. Because our brand targets male football players, we utilize clean shapes and sharp lines to evoke a sense of masculinity and efficiency. Our logo is designed with the primary colors (dark green, green, and orange) in our color palette to convey our values as best as possible. Since our brand provide football-related service, the image of a football is crucial to our brand image. Additionally, the tailed lines next to the football also expresses speed and energy. Combined with our stylized brand name, we want to showcase proactiveness and passion through the logo.</li>
 </ul>
 
-<img height="200" src="images/ball4all_brand-styleguide-logos.jpg" alt="Brand Styleguide Logos">
-<img height="200" src="images/ball4all_logo-explanation.jpg" alt="Logo Explanation">
-<img height="200" src="images/ball4all-instagram-14.jpg" alt="Instagram Posts">
+<img height="200" src="images/ball4all_brand-styleguide-logos.svg" alt="Brand Styleguide Logos">
+<img height="200" src="images/ball4all_logo-explanation.svg" alt="Logo Explanation">
+<img height="200" src="images/ball4all-instagram-14.svg" alt="Instagram Posts">
 
 <p>
   To make it easier for style applications on social media platforms/website/mobile app, we designed two versions of the logo: the original consisted of the primary brand colors, and the monogram (single-color) logo. The monogram logo is used on busy backgrounds/solid-colored backgrounds so that it can stand out from other elements.
@@ -326,8 +338,8 @@
 <p>The stamp-like logo is also utilized in players’ digital passport as a passport stamp that marks their football journey.</p>
 
 <h5 class="mt-4 mb-3">Visual Application</h5>
-<img height="200" src="images/ball4all_brand-styleguide-mockup.jpg" alt="Brand Styleguide Mockup">
-<img height="200" src="images/ball4all_brand-styleguide-mockup2.jpg" alt="Brand Styleguide Mockup">
+<img height="200" src="images/ball4all_brand-styleguide-mockup.svg" alt="Brand Styleguide Mockup">
+<img height="200" src="images/ball4all_brand-styleguide-mockup2.svg" alt="Brand Styleguide Mockup">
 <p>This is the look and feel that we aim to achieve across our media platforms. We want to use high quality photos accompanied with graphic elements that generate energy and passion.</p>
           
           <!-- End Content, start Production -->
@@ -339,7 +351,7 @@
   <li>
     <strong>Color palette</strong>
     <div class="row"> 
-      <img height="500" src="images/palette.jpg" alt="Palette">
+      <img height="500" src="images/palette.svg" alt="Palette">
     </div>
     <ul class="list-unstyled">
       <li>#FF8B00 <em>According to color psychology, orange is often associated with feelings of enthusiasm and excitement. Because orange is a high-energy color, many sports teams use orange in their uniforms, mascots, and branding. We use orange to appeal to the primarily young demographic of our customer segment and express the playful, energetic side of our brand personality.</em></li>
@@ -351,7 +363,7 @@
   <li>
     <strong>Font choices</strong>
     <div class="row">
-      <img height="600" src="images/ball4all_brand-styleguide-typo.jpg" alt="Typography">
+      <img height="600" src="images/ball4all_brand-styleguide-typo.svg" alt="Typography">
     </div>
     <em>The typeface If Kica in uppercase is utilized for our logo as well as headings for our campaign. The typeface design is horizontally wide with equal weight for each letter, which expresses energy, masculinity, and modernity. As a unique display typeface, If Kica reflects and differentiates the brand’s personality from other brands.</em>
     <em>However, paying attention to the UX/UI aspect, we chose Poppins as the primary typeface for content-heavy designs. Poppins’ letters are designed with clean lines/circles within a square-shaped container, which is youthful but also maintains readability when displayed on website/mobile app/social platforms. This typeface also has a variety of weights and styles that allow versatility in design.</em>
@@ -371,7 +383,6 @@
 	<p><strong>The Pitch booking page:</strong> Our Pitch Booking feature allows our customers to effortlessly book football fields available during their selected time period, ensuring their preferred position is open and the location is convenient. This feature embodies our commitment to flexibility, enabling customers to seamlessly integrate football into their busy schedules. With just a few clicks or taps, users can find and reserve the perfect pitch, providing a stress-free and enjoyable booking experience.</p>
 	<p><strong>The Match-making page:</strong> Our Match-making feature supports our customers by displaying available footballers for the specified position. This helps address last-minute pullouts by offering alternative options. When a customer selects a desired teammate, they are automatically redirected to the player's Baller Passport.</p>
   </li>
-</ul>
 
 <h4 id="production-2" class="mt-2">Credits</h4>
 <a href="https://docs.google.com/document/d/1MKWEvwtu-_laZEsbSRCUdaoMoqQoVUP-XDL833gypig/edit?usp=sharing">Credits</a>
@@ -380,7 +391,7 @@
 <li>
     <strong>Testing overview</strong>
 	<p><strong>Testing Goals:</strong> The objective of these tests is to evaluate the efficiency, usability, brand recognition and the overall format of our website which aims to provide an efficient, community-oriented and diverse platform for amateur football players to set up schedules, book pitches and connect with other players on and off the pitch. The primary goal is clear recognition of our brand’s purpose and a guarantee that the services we provide meet the needs of our target customers. We want to find rooms for improvement in terms of UI/UX, meaning what has worked well for our website and which feature/service needs enhancement.</p>
-	<p><strong>Testing Participants:</strong> For our testings, we have chosen three male participants between the age of 20-23 who are amateur football players.</p>
+	<p><strong>Testing Participants:</strong> For our testings, we have chosen three male participants between the age of 20-23 who are amateur football players. These participants are selected based on our target audience for the brand.</p>
 	<p><strong>Testing Setting:</strong> The testing of our brand was done both on laptop and mobile, with one test done on mobile format and two tests done on laptop format. The testings were all done on campus to optimize the internet connection. All participants were invited to do the tests separately with two of our interviewers to minimize external influences on the test results.</p>
 	<p><strong>Testing Protocol:</strong> Before filming/recording, each participant will be informed of an overview of our brand, the purpose of the testing and necessary instructions. For the next step, participants will be asked to test each features, at the same time giving their opinions and questions. Meanwhile, interviewers will record participants' interactions, acknowledging any difficulties, confusion, or positive experiences. The testing process consisted of the following steps: Setting up a digital Baller Passport, Booking a Pitch, Match with other players, Clicking on different navigation features.</p>
 	<p><strong>Testing Results:</strong> Participants identified both disadvantages and advantages of different website features/services.</p>
@@ -452,17 +463,17 @@
 </ul>
 <div class="row">
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-one/reel/img_8629.jpg" width="196" alt="passport">
+    <img src="images/img_8629.svg" width="196" alt="passport">
   </div>
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-one/reel/img_8630.jpg" width="200" alt="passport">
+    <img src="images/img_8630.svg" width="200" alt="passport">
   </div>
   <h6 class="mt-4 mb-3">WEEK FOUR UPDATE - Instagram:</h6>
   <ul>
     <li>However, once we developed our account further in the following weeks, the first video now has 1042 views, 29 likes, and 1 comment. The view count is broken down into two categories; initial plays being 794 and replays being 248. Unfortunately, the team is not able to access further insights as we did not change our account into a business account until week two.</li>
   </ul>
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-one/insight-update/img_8639.jpg" width="173" alt="passport">
+    <img src="images/img_8639.svg" width="173" alt="passport">
   </div>
   <h5 class="mt-4 mb-3">Week Two</h5>
   <h6 class="mt-4 mb-3">Instagram</h6>
@@ -514,16 +525,16 @@
 </ul>
 <div class="row">
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-two/static-post/static-post.jpg" alt="passport" width="173">
+    <img src="images/static-post.svg" alt="passport" width="173">
   </div>
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-two/static-post/static-post-one.PNG" width="173" alt="passport">
+    <img src="images/static-post-one.svg" width="173" alt="passport">
   </div>
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-two/static-post/static-post-three.PNG" width="173" alt="passport">
+    <img src="images/static-post-three.svg" width="173" alt="passport">
   </div>
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-two/static-post/static-post-two.PNG" width="173" alt="passport">
+    <img src="images/static-post-two.svg" width="173" alt="passport">
   </div>
 </div>
 <h7 class="mt-4 mb-3">Business Account: </h7>
@@ -534,7 +545,7 @@
 </p>
 <div class="row">
   <div class="col-lg-4">
-    <img src="images/photos/social-media-photos/instagram/week-two/business-account/business.PNG" width="200" alt="passport">
+    <img src="images/business.svg" width="200" alt="passport">
   </div>
 </div>
 <h6 class="mt-4 mb-3">TikTok</h6>
@@ -842,5 +853,9 @@
 </div>
 </div>
 </main>
+ <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
